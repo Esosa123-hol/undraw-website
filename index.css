@@ -34,6 +34,7 @@
  .flex {
    display: flex;
    flex-direction: row;
+   justify-content: space-around;
  }
 
  .flex .space-between {
@@ -75,6 +76,8 @@
 
  .underline {
    text-decoration: underline;
+   /* color: black; */
+   text-decoration-color: black;
  }
 
  .background-blue {
@@ -86,3 +89,80 @@
    border: none;
    border-radius: 10px;
  }
+
+ .box{
+  background-color: rgb(178, 187, 187);
+  width: 80%;
+  border-radius: 10px;
+  margin: 0px 10%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+ 
+ }
+.heroText,
+.p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .sideText{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500px;
+ }
+ .secondBox{
+  display: grid;
+  text-wrap: inherit;
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  /* gap: 50px; */
+  margin-left: 20px;
+  margin-bottom: 40px;
+  gap: 20px;
+ }
+ .sbox{
+  border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ .sbox2{
+   border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ .sbox3{
+   border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ .sbox4{
+   border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ .sbox5{
+   border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ .sbox6{
+   border: 0.2px solid rgb(77, 75, 67);
+  padding: 5px;
+  border-radius: 10px;
+ }
+ /* .lastButton{
+  background-color: rgb(53, 0, 128);
+  border-radius: 30px;
+ } */
+  .lastText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px ;
+    margin-left: 30px;
+    margin-right: 30px;
+
+  }
