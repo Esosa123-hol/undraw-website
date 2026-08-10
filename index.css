@@ -52,6 +52,7 @@
 
  .pointer {
    cursor: pointer;
+   /* gap: 2px; */
  }
 
  .center {
@@ -81,7 +82,7 @@
  }
 
  .background-blue {
-   background-color: blue;
+   background-color: #6c4fd7;
  }
 
  .button-p {
@@ -91,7 +92,7 @@
  }
 
  .box{
-  background-color: rgb(178, 187, 187);
+  background-color:rgba(156, 182, 224, 0.5);
   width: 80%;
   border-radius: 10px;
   margin: 0px 10%;
